@@ -17,9 +17,6 @@ async function handleSearchAction(formData:FormData) {
         }
         
     await onSubmit(query);
-
-    const formElement = document.querySelector('form');
-    formElement?.reset();
     }
 
     return (
